@@ -13,11 +13,11 @@
   },
   "requires": [],
   "canContain": false,
-  "view": "modules/flickrfeed/index.html",
-  "files": ["modules/flickrfeed/controller.js"],
+  "view": "http://resources.kingofapp.com/modules/flickrfeed/index.html",
+  "files": ["http://resources.kingofapp.com/modules/flickrfeed/controller.js"],
   "scope": {
-    "accesstoken": "XXXX",
-    "photosetid": "72157649175711353",
+    "accesstoken": "",
+    "photosetid": "",
     "results": "5"
   },
   "config": [{
