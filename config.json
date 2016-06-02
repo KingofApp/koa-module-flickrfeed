@@ -71,13 +71,13 @@
     "dragDrop": true
   },
   "images": {
-    "list": "modules/flickrfeed/images/list.png",
+    "list": "modules/flickrfeed/images/Flickr_list.png",
     "screenshots": [
-      "modules/flickrfeed/images/screenshot01.png",
-      "modules/flickrfeed/images/screenshot02.png"
+      "modules/flickrfeed/images/flickrfeed_screenshot01.png",
+    
     ],
-    "popover": "modules/flickrfeed/images/popover.png",
-    "banner": "modules/flickrfeed/images/banner.png",
-    "logo": "modules/flickrfeed/images/logo.png"
+    "popover": "modules/flickrfeed/images/flickrfeed_popover.png",
+    "banner": "modules/flickrfeed/images/flickrfeed_popover.png",
+    "logo": "modules/flickrfeed/images/flickrfeed_logo.png"
   }
 }
