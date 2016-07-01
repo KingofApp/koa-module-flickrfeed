@@ -73,12 +73,7 @@
   "images": {
     "list": "modules/flickrfeed/images/Flickr_list.png",
     "screenshots": [
-<<<<<<< HEAD
-      "modules/flickrfeed/images/flickrfeed_screenshot01.png",
-
-=======
       "modules/flickrfeed/images/flickrfeed_screenshot01.png"
->>>>>>> release/v1.0.1
     ],
     "popover": "modules/flickrfeed/images/flickrfeed_popover.png",
     "banner": "modules/flickrfeed/images/flickrfeed_popover.png",
