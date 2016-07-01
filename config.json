@@ -15,7 +15,7 @@
   },
   "icon": "flickr",
   "type": "A",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "King of App",
   "category": [
     "social"
@@ -75,7 +75,7 @@
     "screenshots": [
 <<<<<<< HEAD
       "modules/flickrfeed/images/flickrfeed_screenshot01.png",
-    
+
 =======
       "modules/flickrfeed/images/flickrfeed_screenshot01.png"
 >>>>>>> release/v1.0.1
