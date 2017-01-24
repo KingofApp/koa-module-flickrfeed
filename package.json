@@ -1,6 +1,6 @@
 {
   "name": "koapp-module-flickrfeed",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Activa este módulo para poder compartir en tu App una espectacular galería de imágenes",
   "directories": {
     "test": "test"
