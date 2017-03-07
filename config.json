@@ -2,20 +2,20 @@
   "name": "Flickr Feed",
   "identifier": "flickrfeed",
   "description": {
-    "es-ES": "¿Tienes una galería de fotos en Flickr? Activando este módulo podrás compartirla en tu App. Selecciona este widget y, en el apartado de configuración de contenido, entra la url de tu perfil. P.e. https://www.flickr.com/photos/MiPerfil, así como el access token y el número de fotos que quieres enseñar. El access token se consigue en la siguiente url: https://www.flickr.com/services/api/auth.oauth.html.",
-    "en-US": "¿Tienes una galería de fotos en Flickr? Activando este módulo podrás compartirla en tu App. Selecciona este widget y, en el apartado de configuración de contenido, entra la url de tu perfil. P.e. https://www.flickr.com/photos/MiPerfil, así como el access token y el número de fotos que quieres enseñar. El access token se consigue en la siguiente url: https://www.flickr.com/services/api/auth.oauth.html."
+    "es-ES": "¿Quieres compartir con los seguidores tu galería de fotos en Flickr? Activa este módulo para dar más vida a tu contenido a través del apartado de configuración. Entra la url de tu perfil, P.e. https://www.flickr.com/photos/MiPerfil, así como el access token y el número de fotos que quieres enseñar. Consigue el access token en la siguiente url: https://www.flickr.com/services/api/auth.oauth.html.",
+    "en-US": "Do you want to share your photo gallery in Flickr with your followers? Activate this module in the configuration section to give more life to your content. Just enter the url of your profile, for example. https://www.flickr.com/photos/MyProfile, as well as the token access and number of photos that you would like to share. You can obtain the access token from the following URL: https://www.flickr.com/services/api/auth.oauth.html."
   },
   "documentation": {
     "es-ES": "modules/flickrfeed/documentation/es_ES.md",
     "en-US": "modules/flickrfeed/documentation/en_US.md"
   },
   "descriptionShort": {
-    "es-ES": "Activa este módulo para poder compartir en tu App una espectacular galería de imágenes",
-    "en-US": "Activa este módulo para poder compartir en tu App una espectacular galería de imágenes"
+    "es-ES": "Comparte tus fotos de Flickr con los seguidores y da más vida a tu contenido.",
+    "en-US": "Share your photo gallery on Flickr with your audience and give more life to your content."
   },
   "icon": "flickr",
   "type": "A",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "King of App",
   "category": [
     "social"
