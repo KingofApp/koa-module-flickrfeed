@@ -5,5 +5,5 @@ La tríada de módulos específicos para imágenes se completa con dedica do a *
 ### Details:
 
 - Author: King of app
-- Version: 1.0.6
+- Version: 1.0.7
 - Homepage:
