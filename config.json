@@ -1,82 +1,86 @@
 {
-  "name": "Flickr Feed",
-  "identifier": "flickrfeed",
-  "description": {
-    "es-ES": "¿Quieres compartir con los seguidores tu galería de fotos en Flickr? Activa este módulo para dar más vida a tu contenido a través del apartado de configuración. Entra la url de tu perfil, P.e. https://www.flickr.com/photos/MiPerfil, así como el access token y el número de fotos que quieres enseñar. Consigue el access token en la siguiente url: https://www.flickr.com/services/api/auth.oauth.html.",
-    "en-US": "Do you want to share your photo gallery in Flickr with your followers? Activate this module in the configuration section to give more life to your content. Just enter the url of your profile, for example. https://www.flickr.com/photos/MyProfile, as well as the token access and number of photos that you would like to share. You can obtain the access token from the following URL: https://www.flickr.com/services/api/auth.oauth.html."
-  },
-  "documentation": {
-    "es-ES": "modules/flickrfeed/documentation/es_ES.md",
-    "en-US": "modules/flickrfeed/documentation/en_US.md"
-  },
-  "descriptionShort": {
-    "es-ES": "Comparte tus fotos de Flickr con los seguidores y da más vida a tu contenido.",
-    "en-US": "Share your photo gallery on Flickr with your audience and give more life to your content."
-  },
-  "icon": "flickr",
-  "type": "A",
-  "version": "1.0.7",
-  "author": "Koapp <koappnpmpublisher@gmail.com> (http://www.kingofapp.com)",
-  "category": [
-    "social"
-  ],
-  "price": 0,
-  "subscription": false,
-  "canContain": false,
-  "platforms": [
-    "android",
-    "ios",
-    "windows"
-  ],
-  "view": "modules/flickrfeed/index.html",
-  "files": [
-    "modules/flickrfeed/controller.js"
-  ],
-  "scope": {
-    "results": "",
-    "accesstoken": "",
-    "photosetid": ""
-  },
-  "config": [{
-    "key": "accesstoken",
-    "templateOptions": {
-      "label": "accesstoken",
-      "description": "token de acceso",
-      "required": true
+    "name": "Flickr Feed",
+    "identifier": "flickrfeed",
+    "description": {
+        "es-ES": "¿Quieres compartir con los seguidores tu galería de fotos en Flickr? Activa este módulo para dar más vida a tu contenido a través del apartado de configuración. Entra la url de tu perfil, P.e. https://www.flickr.com/photos/MiPerfil, así como el access token y el número de fotos que quieres enseñar. Consigue el access token en la siguiente url: https://www.flickr.com/services/api/auth.oauth.html.",
+        "en-US": "Do you want to share your photo gallery in Flickr with your followers? Activate this module in the configuration section to give more life to your content. Just enter the url of your profile, for example. https://www.flickr.com/photos/MyProfile, as well as the token access and number of photos that you would like to share. You can obtain the access token from the following URL: https://www.flickr.com/services/api/auth.oauth.html."
     },
-    "type": "input"
-  }, {
-    "type": "input",
-    "key": "photosetid",
-    "templateOptions": {
-      "label": "photosetid",
-      "required": true,
-      "pattern": "^[a-zA-Z0-9]+$",
-      "description": "id del photoset"
-    }
-  }, {
-    "type": "input",
-    "key": "results",
-    "templateOptions": {
-      "label": "results",
-      "required": true,
-      "maxlength": 2,
-      "pattern": "^[0-9]+$",
-      "description": "resultados"
-    }
-  }],
-  "showOn": {
-    "menu": true,
-    "market": true,
-    "dragDrop": true
-  },
-  "images": {
-    "list": "modules/flickrfeed/images/Flickr_list.png",
-    "screenshots": [
-      "modules/flickrfeed/images/flickrfeed_screenshot01.png"
+    "documentation": {
+        "es-ES": "modules/flickrfeed/documentation/es_ES.md",
+        "en-US": "modules/flickrfeed/documentation/en_US.md"
+    },
+    "descriptionShort": {
+        "es-ES": "Comparte tus fotos de Flickr con los seguidores y da más vida a tu contenido.",
+        "en-US": "Share your photo gallery on Flickr with your audience and give more life to your content."
+    },
+    "icon": "flickr",
+    "type": "A",
+    "version": "1.0.8",
+    "author": "Koapp <koappnpmpublisher@gmail.com> (http://www.kingofapp.com)",
+    "category": [
+        "social"
     ],
-    "popover": "modules/flickrfeed/images/flickrfeed_popover.png",
-    "banner": "modules/flickrfeed/images/flickrfeed_popover.png",
-    "logo": "modules/flickrfeed/images/flickrfeed_logo.png"
-  }
+    "price": 0,
+    "subscription": false,
+    "canContain": false,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/flickrfeed/index.html",
+    "files": [
+        "modules/flickrfeed/controller.js"
+    ],
+    "scope": {
+        "results": "",
+        "accesstoken": "",
+        "photosetid": ""
+    },
+    "config": [
+        {
+            "key": "accesstoken",
+            "templateOptions": {
+                "label": "accesstoken",
+                "description": "token de acceso",
+                "required": true
+            },
+            "type": "input"
+        },
+        {
+            "type": "input",
+            "key": "photosetid",
+            "templateOptions": {
+                "label": "photosetid",
+                "required": true,
+                "pattern": "^[a-zA-Z0-9]+$",
+                "description": "id del photoset"
+            }
+        },
+        {
+            "type": "input",
+            "key": "results",
+            "templateOptions": {
+                "label": "results",
+                "required": true,
+                "maxlength": 2,
+                "pattern": "^[0-9]+$",
+                "description": "resultados"
+            }
+        }
+    ],
+    "showOn": {
+        "menu": true,
+        "market": true,
+        "dragDrop": true
+    },
+    "images": {
+        "list": "modules/flickrfeed/images/Flickr_list.png",
+        "screenshots": [
+            "modules/flickrfeed/images/flickrfeed_screenshot01.png"
+        ],
+        "popover": "modules/flickrfeed/images/flickrfeed_popover.png",
+        "banner": "modules/flickrfeed/images/flickrfeed_popover.png",
+        "logo": "modules/flickrfeed/images/flickrfeed_logo.png"
+    }
 }
